@@ -1,0 +1,22 @@
+let burgerButton = document.querySelector('.burger__btn');
+let phoneMenu = document.querySelector('.phone_container');
+let menuLinks = document.querySelectorAll('.item-link');
+let containers = document.querySelectorAll('.anchor');
+let aboutMeInfo = document.querySelector('.about_me')
+let aboutMeBtn = document.querySelector('#about_me_btn');
+let openedForm = document.querySelector('.consultation_form');
+let closedForm = document.querySelector('.close_form');
+let form = document.querySelector('.form_container');
+let formContent = document.querySelector('.form_content');
+let body = document.body;
+let addPadding = window.innerWidth - body.offsetWidth;
+let paddingNeeded = document.querySelectorAll('.lock_padding');
+let header = document.querySelector('.header')
+let timeout = 500;
+const whyTarget = document.querySelector('.why_target_container');
+const aboutMe = document.querySelector('.about_me_container');
+const mainImg = document.querySelector('.main_image');
+const mainLinks = document.querySelector('.main_links');
+const mainInfo = document.querySelector('.main_info');
+const mainLinksParent = mainLinks.parentNode;
+let containerData;
